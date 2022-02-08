@@ -1,3 +1,4 @@
+package openKL;
 import dao.Connexion;
 
 public class OpenKnowledge {

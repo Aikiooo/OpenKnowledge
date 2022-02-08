@@ -1,4 +1,4 @@
-
+package openKL;
 public class Formation {
 	public int idFormation;
 	public String denomFormation;

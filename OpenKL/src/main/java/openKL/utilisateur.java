@@ -1,4 +1,4 @@
-
+package openKL;
 public class utilisateur {
 	public int idUtilisateur;
 	public String nom;

@@ -1,4 +1,4 @@
-
+package openKL;
 public class Salle {
 	public int idSalle;
 	public String denomSalle;
