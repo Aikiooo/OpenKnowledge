@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #B0E0E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane cacheShape="false" centerShape="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" scaleShape="false" style="-fx-background-color: #B0E0E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="31.0" layoutY="27.0" text="Nom Prénom de l'utilisateur">
+      <Label layoutX="31.0" layoutY="27.0" text="&lt;Nom Prénom de l'utilisateur&gt;">
          <font>
-            <Font name="Century Gothic Bold" size="18.0" />
+            <Font name="Candara Bold" size="18.0" />
          </font>
       </Label>
       <Button layoutX="81.0" layoutY="117.0" mnemonicParsing="false" text="EMPLOI DU TEMPS">
@@ -27,4 +28,7 @@
    <effect>
       <InnerShadow />
    </effect>
+   <opaqueInsets>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </opaqueInsets>
 </Pane>
