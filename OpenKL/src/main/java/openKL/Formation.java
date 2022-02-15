@@ -1,8 +1,10 @@
+package openKL;
+
 
 public class Formation {
-	public int idFormation;
-	public String denomFormation;
-	public String certifOuDiplome;
+	private int idFormation;
+	private String denomFormation;
+	private String certifOuDiplome;
 	
 
 }

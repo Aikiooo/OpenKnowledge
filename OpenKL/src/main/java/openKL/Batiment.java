@@ -1,8 +1,9 @@
+package openKL;
 
 public class Batiment {
-	public int idBatiment;
-	public String adresse;
-	public String cp;
-	public String ville;
+	private int idBatiment;
+	private String adresse;
+	private String cp;
+	private String ville;
 
 }
