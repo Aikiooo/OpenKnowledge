@@ -1,11 +1,13 @@
+package openKL;
 
-public class utilisateur {
-	public int idUtilisateur;
-	public String nom;
-	public String prenom;
-	public String email;
-	public String telephone;
-	public String type;
+
+public class Utilisateur {
+	private int idUtilisateur;
+	private String nom;
+	private String prenom;
+	private String email;
+	private String telephone;
+	private String type;
 	
 
 }
