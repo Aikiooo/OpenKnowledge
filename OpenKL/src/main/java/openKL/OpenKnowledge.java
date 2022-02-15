@@ -1,5 +1,8 @@
 package openKL;
+<<<<<<< HEAD
 
+=======
+>>>>>>> branch 'main' of https://github.com/Aikiooo/OpenKnowledge.git
 import dao.Connexion;
 
 public class OpenKnowledge {
